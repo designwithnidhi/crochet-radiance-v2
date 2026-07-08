@@ -1407,3 +1407,17 @@ a.contact-link-item:hover .contact-icon {
     gap: 40px;
   }
 }
+
+.portfolio-tag{
+    display:inline-block;
+    margin:20px 0;
+    padding:10px 22px;
+    background:#fdf3f5;
+    color:#8c6a5d;
+    border:2px solid #d9b4bc;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:.5px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
