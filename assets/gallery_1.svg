@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="500" height="500" rx="20" fill="#FAF7F2"/>
+  
+  <!-- Outer glowing circle -->
+  <circle cx="250" cy="250" r="180" fill="#E8C9D0" opacity="0.2"/>
+
+  <g transform="translate(250, 250)" filter="drop-shadow(0px 8px 12px rgba(140, 106, 93, 0.15))">
+    <!-- Crochet Coaster -->
+    <circle cx="0" cy="0" r="130" fill="#D7C6E9"/>
+    <!-- Scalloped edges -->
+    <circle cx="-130" cy="0" r="15" fill="#D7C6E9"/>
+    <circle cx="130" cy="0" r="15" fill="#D7C6E9"/>
+    <circle cx="0" cy="-130" r="15" fill="#D7C6E9"/>
+    <circle cx="0" cy="130" r="15" fill="#D7C6E9"/>
+    <circle cx="-92" cy="-92" r="15" fill="#D7C6E9"/>
+    <circle cx="92" cy="-92" r="15" fill="#D7C6E9"/>
+    <circle cx="-92" cy="92" r="15" fill="#D7C6E9"/>
+    <circle cx="92" cy="92" r="15" fill="#D7C6E9"/>
+
+    <circle cx="-120" cy="-50" r="15" fill="#D7C6E9"/>
+    <circle cx="-120" cy="50" r="15" fill="#D7C6E9"/>
+    <circle cx="120" cy="-50" r="15" fill="#D7C6E9"/>
+    <circle cx="120" cy="50" r="15" fill="#D7C6E9"/>
+    <circle cx="-50" cy="-120" r="15" fill="#D7C6E9"/>
+    <circle cx="50" cy="-120" r="15" fill="#D7C6E9"/>
+    <circle cx="-50" cy="120" r="15" fill="#D7C6E9"/>
+    <circle cx="50" cy="120" r="15" fill="#D7C6E9"/>
+
+    <!-- Inner texture rings -->
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="10,6" opacity="0.8"/>
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#E8C9D0" stroke-width="3" opacity="0.9"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="6,4" opacity="0.8"/>
+
+    <!-- Cup of tea on the coaster -->
+    <g transform="translate(0, -10)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))">
+      <!-- Cup plate -->
+      <ellipse cx="0" cy="45" rx="65" ry="20" fill="#FFFFFF"/>
+      <ellipse cx="0" cy="45" rx="55" ry="14" fill="#FAF7F2" stroke="#E8C9D0" stroke-width="1.5"/>
+
+      <!-- Cup handle -->
+      <path d="M 45 -15 C 65 -15 65 20 45 20" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 45 -15 C 65 -15 65 20 45 20" fill="none" stroke="#FAF7F2" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Cup body -->
+      <path d="M -45 -25 L 45 -25 C 45 10 30 35 0 35 C -30 35 -45 10 -45 -25 Z" fill="#FFFFFF"/>
+      
+      <!-- Liquid tea -->
+      <ellipse cx="0" cy="-22" rx="42" ry="12" fill="#8C6A5D" opacity="0.85"/>
+      <ellipse cx="-12" cy="-24" rx="20" ry="6" fill="#FFFFFF" opacity="0.25"/> <!-- shine -->
+
+      <!-- Tea leaf floating -->
+      <path d="M 10 -22 C 15 -25 22 -22 25 -20 C 18 -18 12 -18 10 -22" fill="#8DA685"/>
+
+      <!-- Steam lines -->
+      <path d="M -15 -45 Q -10 -55 -15 -65" fill="none" stroke="#FAF7F2" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 5 -50 Q 10 -60 5 -70" fill="none" stroke="#FAF7F2" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    </g>
+
+    <!-- Finished Project tag -->
+    <g transform="translate(-65, 80) rotate(-10)">
+      <rect x="-35" y="-12" width="70" height="24" rx="6" fill="#8C6A5D"/>
+      <text x="0" y="5" font-family="'Quicksand', sans-serif" font-size="9" font-weight="bold" fill="#FAF7F2" text-anchor="middle">COZY HOME</text>
+    </g>
+  </g>
+</svg>
