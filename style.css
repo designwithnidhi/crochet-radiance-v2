@@ -607,6 +607,14 @@ section {
   transition: var(--transition-smooth);
 }
 
+.card-image-box img.plant-holder-thumb {
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
 .card-body {
   padding: 30px;
   display: flex;
